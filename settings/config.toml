@@ -1,0 +1,19 @@
+[BASE-SYNTAX]
+key1 = 'my_value'
+key2 = 4
+key3 = [1, 2, 3]
+key4 = {key = 'value'}
+
+[INDENTATION]
+    [INDENTATION.LEVEL1]
+    data = [
+        [1,2,3], 
+        [3,4, 5]
+        ]
+
+    [INDENTATION.LEVEL2]
+    some_str = 'some_str_values'
+    other_str = ['toml', 'is', 'perfect']
+
+
+
